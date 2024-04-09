@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project Prototype</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<div>
+
+    <div class="TopLabels">
+        <a class="icons" href="index.html"><img src="./icon/agro.png" alt="error" width="245" height="80"></a>
+        <text>SUPPORTING AGRIBUSINESS
+            AND TOURISM ACTIVITIES
+            IN KHATLON AND GBAO</text>
+        <a class="icons" href="index.html"><img src="./icon/flag.png" alt="error" width="208" height="80"></a>
+        <a class="icons" href="index.html"><img src="./icon/bank.png" alt="error" width="156" height="80"></a>
+    </div>
+
+        <div class="NavBar">
+            <a href="index.html">
+                <button onclick="Home()" class="Button" >Home</button>
+            </a>
+            <a href="html/About.html">
+                <button onclick="AboutUs()" class="Button" >About Us</button>
+            </a>
+            <a href="html/Grants.html">
+                <button onclick="Grants()" class="Button" >Grants</button>
+            </a>
+            <a href="html/Spheres.html">
+                <button onclick="Spheres()" class="Button" >Project's Spheres</button>
+            </a>
+            <a href="html/FAQ.html">
+                <button onclick="FAQ()" class="Button" >FAQ</button>
+            </a>
+            <a href="html/SOA.html">
+                <button onclick="SOA()" class="Button" >Status Of Applications</button>
+            </a>
+            <a href="html/NEWS.html">
+                <button onclick="NEWS()" class="Button" >News</button>
+            </a>
+            <a href="html/Gallery.html">
+                <button onclick="Gallery()" class="Button" >News</button>
+            </a>
+            <a href="html/Contacts.html">
+                <button onclick="Contacts()" class="Button" >Contacts</button>
+            </a>
+
+            <a href="ru/index.html"><button onclick="TranslateRUS('ru')" class="TranslateRUS" ></button></a>
+            <a href="uz/index.html"><button onclick="TranslateTJ('tj')" class="TranslateTJ" ></button></a>
+        </div>
+
+
+
+    <div class="Map">
+        <canvas width="100%" height="600px">
+
+        </canvas>
+    </div>
+
+    <div class="footer" >
+        <div class="footerText">
+            <text>IF YOUR ORGANIZATION’S ACTIVITY IS IN THE FOLLOWING AREAS:</text>
+        </div>
+        <div class="footerContacts">
+            <div class="contactContainer">
+                <button onclick="Khalton()" class="PhoneButton"><img src="./icon/phone-call_455705.png" width="40" height="40" alt="error"></button>
+                <button onclick="Khatlon()" class="TextButton">CONTACTS IN KHALTON</button>
+            </div>
+            <div class="contactContainer">
+                <button onclick="GBAO()" class="PhoneButton"><img src="./icon/phone-call_455705.png" width="40" height="40" alt="error"></button>
+                <button onclick="GBAO()" class="TextButton">CONTACTS IN GBAO</button>
+            </div>
+        </div>
+        <div class="footerLinks">
+            <div class="f-c-l">
+                <div class="footerAU">
+                    <hr>
+                    <text font-size="10px">ABOUT US</text>
+                </div>
+                <div class="footerDetails">
+                    <img src="./icon/agro.png" width="180" height="80" alt="error">
+                    <text>RURAL ECONOMY DEVELOPMENT PROJECT</text>
+                    <div class="f-d-t">
+                        The Rural Economy Development (RED) Project supports the development of agribusiness and tourism activities in the Khatlon and GBAO regions of Tajikistan.
+                    </div>
+                </div>
+            </div>
+            <div class="f-l">
+                <div class="Copyright">
+                    <footer>Copyright © 2024</footer>
+                </div>
+                <div class="f-l-b">
+                    <a href="html/About.html" > <text id="text">About us</text></a>
+                    <a href="html/Grants.html" > Grants</a>
+                    <a href="html/Spheres.html" > Project's Spheres</a>
+                    <a href="html/FAQ.html" > FAQ</a>
+                    <a href="html/SOA.html" > Status of Application</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="index.js" type="module"></script>
+</body>
+</html>

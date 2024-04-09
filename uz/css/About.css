@@ -1,0 +1,36 @@
+/* ---- Magic begins ----*/
+/* Use flex and set auto margin */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.long {
+    /* Remove this, to see that the footer flows normal for long pages */
+    display: none;
+}
+
+/* ---- Magic ends ----*/
+/* Some base styling for the demo */
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #21a1a1;
+    color: #e2fdfd;
+}
+
+section {
+    padding: 1rem;
+}
+
+footer {
+    background: #132020;
+    color: #fff;
+    padding: 1rem;
+}
